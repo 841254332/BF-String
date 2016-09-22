@@ -24,7 +24,7 @@ int index(string S, string T){
         cout<<i<<endl;
         
     }
-    if (j >= T.length()-1) {
+    if (j > T.length()-1) {
         cout<< (int)(i-T.length());
     }else{
         cout<<-1;
@@ -35,7 +35,7 @@ int index(string S, string T){
 int main(int argc, const char * argv[]) {
     // insert code here...
     string s = "abcde";
-    string t = "e";
+    string t = "c";
     index(s, t);
     return 0;
 }
